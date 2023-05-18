@@ -1,45 +1,33 @@
 let getMonth = (fasl) => {
     switch(fasl){
-        case "Yanvar":
-            console.log("Qish");
+        case "Qish":
+            console.log("Yanvar");
+            console.log("Fevral");
+            console.log("Dekabr");
             break;
-        case "Fevral":
-            console.log("Qish");
+
+        case "Bahor":
+            console.log("Mart");
+            console.log("Aprel");
+            console.log("May");
             break;
-        case "Dekabr":
-            console.log("Qish");
+
+        case "Yoz":
+            console.log("Iyun");
+            console.log("Iyul");
+            console.log("Avgust");
             break;
-        case "Mart":
-            console.log("Bahor");
+
+        case "Kuz":
+            console.log("Sentabr");
+            console.log("Oktabr");
+            console.log("Noyabr");
             break;
-        case "Aprel":
-            console.log("Bahor");
-            break;
-        case "May":
-            console.log("Bahor");
-            break;
-        case "Iyun":
-            console.log("Yoz");
-            break;
-        case "Iyul":
-            console.log("Yoz");
-            break;
-        case "Avgust":
-            console.log("Yoz");
-            break;
-        case "Sentabr":
-            console.log("Kuz");
-            break;
-        case "Oktabr":
-            console.log("Kuz");
-            break;
-        case "Noyabr":
-            console.log("Kuz");
-            break;
+        
         default :
-            console.log("Bunday oy mavjud emas!");
+            console.log("Bunday fasl mavjud emas!");
             break;
     }
 }
 
-getMonth('Iyun');
+getMonth('Qish');
