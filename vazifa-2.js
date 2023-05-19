@@ -1,10 +1,15 @@
+let value = 1;
 let powerOfN = (n) => {
-    for(let i = 1; i <= n * n; i++){
-        console.log(i);
-        for(let j = 1; j <= i; j++){
-            console.log(j);
+    for(let i = 0; i < n; i++){
+        let row = '';
+        for(let j = 0; j < n; j++){
+            row += value ++ + " ";
         }
+        console.log(row);
     }
+
 }
 
-powerOfN(3);
+
+
+powerOfN(10);  
